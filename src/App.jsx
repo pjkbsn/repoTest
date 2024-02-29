@@ -5,6 +5,10 @@ import List from "./List";
 import Counter from "./Counter";
 import Check from "./Check";
 import Radio from "./Radio";
+import DropDown from "./DropDown";
+import ToDo from "./ToDo";
+import ColorBox from "./ColorBox";
+import Name from "./Name";
 
 function App() {
   return (
@@ -16,6 +20,12 @@ function App() {
       <Counter />
       <Check />
       <Radio />
+      <DropDown
+        carArray={["Ford", "Volvo", "Porsche", "Kia", "BMW", "Volkswagen"]}
+      />
+      <ToDo />
+      <ColorBox colorArray={["hotpink", "green", "orange", "yellow"]} />
+      <Name />
     </>
   );
 }
